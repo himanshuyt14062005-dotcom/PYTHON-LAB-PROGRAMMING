@@ -1,0 +1,5 @@
+a=(input("Enter a string: "))
+print("First character of the string: ", a[0:4])
+print("Last character of the string: ", a[-3:-1])
+print("every alternate character of the string: ", a[::2])
+print("the string in reverse order: ", a[::-1])
